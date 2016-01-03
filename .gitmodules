@@ -1,0 +1,6 @@
+[submodule "osinstall-ui"]
+	path = osinstall-ui
+	url = https://github.com/idcos/osinstall-ui.git
+[submodule "osinstall-doc"]
+	path = osinstall-doc
+	url = https://github.com/idcos/osinstall-doc.git
