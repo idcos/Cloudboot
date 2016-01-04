@@ -4,3 +4,6 @@
 [submodule "osinstall-doc"]
 	path = osinstall-doc
 	url = https://github.com/idcos/osinstall-doc.git
+[submodule "osinstall-server"]
+	path = osinstall-server
+	url = https://github.com/idcos/osinstall-server.git
