@@ -28,20 +28,26 @@ mysql -uroot < /usr/yunji/osinstall-server/doc/db/idcos-osinstall.sql
 ## 2.部署server
 * 配置Go语言环境(如已部署则略过此步骤)
 下载最新稳定版源码
+
 `wget https://storage.googleapis.com/golang/go1.5.2.src.tar.gz`
 
 拷贝到用户工作目录
+
 `/home/<USER>/`
 
 解压
+
 `tar xf go1.5.2.src.tar.gz`
+
 编译
+
 `cd go/src/ && ./make.bash`
 
 * 配置环境变量
-`vim ~/.bashrc`
-追加以下内容
+
 ```
+vim ~/.bashrc
+#追加以下内容
 export GOROOT=~/go
 export GOPATH=~/golibs
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
@@ -49,6 +55,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 重新启动终端就可以开始进行Go开发了
 
 安装gb工具
+
 `go get github.com/constabulary/gb/...`
 
 
@@ -60,8 +67,8 @@ cd /usr/yunji/osinstall-server/
 ```
 
 配置数据库连接:
-`vim bin/idcos-os-install.json`
 ```
+vim bin/idcos-os-install.json
 "repo": {
     "connection": "user:password@tcp(localhost:3306)/idcos-osinstall?charset=utf8&parseTime=True&loc=Local"
 },
@@ -91,5 +98,5 @@ bower install
 ember server --proxy=http://localhost:8083/
 ```
 
-* Visit your app at
+## 4.Visit your app at
 `http://localhost:4200/#/dashboard/main`
