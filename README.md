@@ -27,21 +27,20 @@ mysql -uroot < /usr/yunji/osinstall-server/doc/db/idcos-osinstall.sql
 
 ## 2.部署server
 * 配置Go语言环境(如已部署则略过此步骤)
-下载最新稳定版源码
 
-`wget https://storage.googleapis.com/golang/go1.5.2.src.tar.gz`
+```
+#下载最新稳定版源码
+wget https://storage.googleapis.com/golang/go1.5.2.src.tar.gz
 
-拷贝到用户工作目录
+#拷贝到用户工作目录
+cp go1.5.2.src.tar.gz /home/<USER>/
 
-`/home/<USER>/`
+#解压
+tar xf go1.5.2.src.tar.gz
 
-解压
-
-`tar xf go1.5.2.src.tar.gz`
-
-编译
-
-`cd go/src/ && ./make.bash`
+#编译
+cd go/src/ && ./make.bash
+```
 
 * 配置环境变量
 
