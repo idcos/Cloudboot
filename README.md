@@ -85,10 +85,11 @@ vim bin/idcos-os-install.json
 ```
 
 
-启动可执行文件
+编译并启动可执行文件
 ```
-chmod 755 bin/os-install-server
-nohup bin/os-install-server &>bin/os-install-server.log &
+gb build
+cd ./bin/
+./os-install-server
 ```
 
 
