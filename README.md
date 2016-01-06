@@ -54,7 +54,7 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 重新启动终端就可以开始进行Go开发了
 
 
-安装gb工具
+* 安装gb工具
 
 `go get github.com/constabulary/gb/...`
 
