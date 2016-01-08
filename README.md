@@ -94,9 +94,10 @@ cd ./bin/
 
 Test
 ```
-#Then visit the test url
+#Then visit the test url:
 http://localhost:8083/api/osinstall/v1/device/getNetworkBySn?sn=xxx&type=json
-#Output
+
+#Output:
 {
   "Content": "",
   "Message": "record not found",
