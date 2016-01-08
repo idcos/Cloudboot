@@ -92,6 +92,17 @@ cd ./bin/
 ./os-install-server
 ```
 
+Test
+```
+#Then visit the test url
+http://localhost:8083/api/osinstall/v1/device/getNetworkBySn?sn=xxx&type=json
+#Output
+{
+  "Content": "",
+  "Message": "record not found",
+  "Status": "error"
+}
+```
 
 ## 3.Deploy UI
 ```
