@@ -1,3 +1,6 @@
+## Online communication
+QQ群：120556005
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
