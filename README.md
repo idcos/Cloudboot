@@ -1,3 +1,6 @@
+## DEMO
+http://demo.idcos.com:8081/osinstall/#/dashboard/main (建议使用最新版的Google Chrome浏览器访问，以获得最佳体验)
+
 ## Online communication
 QQ群:120556005
 
