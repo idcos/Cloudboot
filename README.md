@@ -12,7 +12,7 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
-* [Go](https://storage.googleapis.com/golang/go1.5.2.src.tar.gz)
+* [Go](https://storage.googleapis.com/golang/go1.4.2.src.tar.gz)
 
 ## 1.Initialization DB
 * Install Mysql
@@ -35,13 +35,13 @@ mysql -uroot < /usr/yunji/osinstall-server/doc/db/idcos-osinstall.sql
 
 ```
 #Download the latest stable version source code
-wget https://storage.googleapis.com/golang/go1.5.2.src.tar.gz
+wget https://storage.googleapis.com/golang/go1.4.2.src.tar.gz
 
 #Copied to the user's work directory
-cp go1.5.2.src.tar.gz /home/<USER>/
+cp go1.4.2.src.tar.gz /home/<USER>/
 
 #Unzip
-tar xf go1.5.2.src.tar.gz
+tar xf go1.4.2.src.tar.gz
 
 #Compile
 cd go/src/ && ./make.bash
