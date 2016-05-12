@@ -119,9 +119,9 @@ cd /usr/yunji
 git clone https://github.com/idcos/osinstall-ui.git
 cd /usr/yunji/osinstall-ui/
 npm install
-bower install
 npm install -g ember-cli
 npm install -g bower
+bower install
 ember server --proxy=http://localhost:8083/
 ```
 
