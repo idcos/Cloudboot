@@ -4,7 +4,7 @@ http://demo.idcos.com:8081/#/dashboard/main (建议使用最新版的Google Chro
 ## Online communication
 QQ群:120556005
 
-Download:http://www.idcos.com/download.html
+Download:http://www.idcos.com/store/cloudboot
 
 ## Prerequisites
 
