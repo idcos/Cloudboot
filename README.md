@@ -8,6 +8,11 @@ QQ群:120556005
 
 Download:http://www.idcos.com/store/cloudboot
 
+## 一键部署安装
+如果没有二次开发的需求，请直接下载RPM包一键安装，几分钟即可搞定。一键部署文档：
+http://idcos.github.io/osinstall-doc/environment/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2.html
+
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
