@@ -1,7 +1,7 @@
 ## DEMO
 http://cloudboot.idcos.com/#/login (建议使用最新版的Google Chrome浏览器访问，以获得最佳体验)
-user:admin
-password:admin
+* user:admin
+* password:admin
 
 ## Online communication
 QQ群:120556005
