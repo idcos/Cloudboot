@@ -88,9 +88,11 @@ cd /usr/yunji/osinstall-server/
 
 Configuring database connection:
 ```
-vim bin/idcos-os-install.json
+mkdir /etc/cloudboot-server/
+cp osinstall-server/conf/cloudboot-server.conf /etc/cloudboot-server/cloudboot-server.conf
+vim /etc/cloudboot-server/cloudboot-server.conf
 "repo": {
-    "connection": "user:password@tcp(localhost:3306)/idcos-osinstall?charset=utf8&parseTime=True&loc=Local"
+    "connection": "user:password@tcp(localhost:3306)/cloudboot?charset=utf8&parseTime=True&loc=Local"
 },
 ```
 
@@ -107,7 +109,7 @@ Build and run
 ```
 gb build
 cd ./bin/
-./os-install-server
+./cloudboot-server
 ```
 
 Test
