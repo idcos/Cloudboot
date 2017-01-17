@@ -7,3 +7,6 @@
 [submodule "osinstall-server"]
 	path = osinstall-server
 	url = https://github.com/idcos/osinstall-server.git
+[submodule "osinstall-hardware"]
+	path = osinstall-hardware
+	url = https://github.com/idcos/osinstall-hardware
