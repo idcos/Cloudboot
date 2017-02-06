@@ -40,7 +40,7 @@ chkconfig mysqld on
 mkdir -p /usr/yunji/
 cd /usr/yunji
 git clone https://github.com/idcos/osinstall-server.git
-mysql -uroot < /usr/yunji/osinstall-server/doc/db/cloudboot.sql.sql
+mysql -uroot < /usr/yunji/osinstall-server/doc/db/cloudboot.sql
 ```
 
 ## 2.Deploy Server
